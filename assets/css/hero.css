@@ -416,7 +416,7 @@
   
   .hero__image {
     position: absolute;
-    top: 0;
+    top: 20%;
     left: 50%;
     translate: -50%;
     width: 174px;
