@@ -62,7 +62,7 @@ form textarea{
     border-radius: 10px;
     transition: ease .20s;
     cursor: pointer;
-    width: 80%;
+    width: 100%;
    
 }
 .contact-form form .btn:hover{
