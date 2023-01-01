@@ -71,6 +71,7 @@ form textarea{
     transform: scale(1.08);
 
 }
+
 @media (max-width : 1570px){
     .section[class="contact"]{
         padding: 80px 3%;
