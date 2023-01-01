@@ -27,7 +27,8 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/hero.css">
     <link rel="stylesheet" href="assets/css/about.css">
-
+    <link rel="stylesheet" href="assets/css/contact.css" >
+    
     <!-- iCONS: -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
@@ -52,7 +53,7 @@
             <ul class="navbar-list">
     
               <li>
-                <a href="#" class="navbar-link">Home</a>
+                <a href="#hero" class="navbar-link">Home</a>
               </li>
     
               <li>
@@ -72,7 +73,7 @@
               </li>
     
               <li>
-                <a href="#" class="navbar-link">Contact</a>
+                <a href="#contact" class="navbar-link">Contact</a>
               </li>
     
             </ul>
@@ -88,7 +89,7 @@
     <!-- HERO STARTS HERE: -->
 
     <!-- <main id="main"> -->
-        <section class="hero">
+        <section class="hero" id="hero">
           <div class="wrapper hero__wrapper bottom-border">
             <div class="hero__content">
               <picture>
@@ -139,7 +140,6 @@
     <!-- </main> -->
 
     <!-- HERO ENDS HERE: -->
-
 
     <!-- ABOUT SECTION STARTS HERE: -->
 
@@ -192,8 +192,30 @@
     </section>
     
     <!-- ABOUT SECTION ENDS HERE: -->
+    
+    
+    <!-- CONTACT SECTION STARTS HERE: -->
+        <section class="contact" id="contact">
+          <div class="contact-img">
+            <img src="assets//img/daniel-lincoln-0CLk5yM1V44-unsplash.jpg" alt="">
+          </div>
+          <div class="contact-form">
+            <h1>Contact <span>Us</span></h1>
+            <p>I am available for freelance work. Connect with me via phone: 01646895741
+              or email: admin@example.com</p>
+            <form action="">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="E-mail" required>
+              <input type="text" placeholder="Write a Subject" required>
+              <textarea name="" id="" cols="30" rows="10" placeholder="Your Message">
 
-
+              </textarea>
+              <input type="submit" name="" value="Submit" class="btn">
+            </form>
+          </div>
+        </section>
+        
+    <!-- ABOUT SECTION ENDS HERE: -->
     <!-- JS SCRIPTS: -->
     <script src="assets/js/header.js"></script>
 </body>
