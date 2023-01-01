@@ -69,6 +69,7 @@
   }
   
   .header-xl {
+    max-width: 90%;
     font-size: 2.5rem;
     font-size: clamp(2.5rem, 0.7rem + 7.68vw, 5.5rem);
     letter-spacing: -0.028em;
@@ -428,14 +429,13 @@
   
     .hero__image {
       position: relative;
-      width: 42vw;
+      width: 44vw;
       max-width: 445px;
-      /* width: 322px; */
       height: auto;
       left: auto;
-      right: 0;
+      right: 35%;
       translate: 0;
-    }
+  }
   
     .hero__rings {
       top: 90px;
@@ -495,8 +495,8 @@
     }
   
     .hero__image {
-      margin-block-start: -199px;
-
+      margin-right: -120px;
+      margin-block-start: -160px;
     }
   
     .hero__rings {
