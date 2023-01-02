@@ -8,7 +8,7 @@
 }
 .footer .container {
     display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    grid-template-columns: repeat(auto-fill, 360px);
     gap: 20px;
 }
 
@@ -44,6 +44,12 @@
 }
 @media (max-width: 900px){
     .social-list{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
    }
+}
+@media (max-width: 540px){
+    .footer .container {
+        grid-template-columns: repeat(auto-fill, 200px);
+        padding-left: 50px;
+    }
 }
