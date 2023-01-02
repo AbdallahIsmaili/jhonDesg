@@ -9,9 +9,9 @@
      * colors
      */
   
-    --raisin-black: hsla(226, 17%, 15%, 0.8);
-    --roman-silver: hsla(229, 10%, 57%, 1);
-    --eerie-black: hsl(0, 0%, 8%);
+    --raisin-black: hsla(0, 0%, 8%,0.9);
+    --roman-silver: hsla(229, 10%, 57%, 0.8);
+    --eerie-black: rgb(20, 20, 20);
     --black: hsl(0, 0%, 8%);
     --white: hsla(0, 0%, 100%, 1);
     --white_a10: hsla(0, 0%, 100%, 0.1);
