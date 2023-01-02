@@ -134,7 +134,8 @@ form textarea{
         margin-bottom: 30px;
     }
     .title_contact{
-        padding-top: 30rem;
+        font-size: 10em;
+        padding-top: 25rem;
     }
     .title_contact::after{
         width: 80%;
@@ -147,10 +148,12 @@ form textarea{
         font-size: 100px;
     }
     .title_contact{
-        font-size: 10em;
+        padding-top: 6em;
+        font-size: 6em;
     }
 
     .contact-form form .btn {
+       
         width: 100%;
     }
 
