@@ -435,7 +435,8 @@
       left: auto;
       right: 35%;
       translate: 0;
-  }
+      bottom: 20px;
+    }
   
     .hero__rings {
       top: 90px;
@@ -475,7 +476,7 @@
       margin-block-end: 34px;
     }
   }
-  
+
   @media (min-width: 62.5em) {
     .hero {
       margin-block-start: 0px;
@@ -527,4 +528,6 @@
       width: 38ch;
       margin-block-end: 66px;
     }
+    
+
   }
