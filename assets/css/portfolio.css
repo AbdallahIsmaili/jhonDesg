@@ -213,6 +213,10 @@ ol.content{
          padding:0px;
      }
 
+     .filterbox {
+        padding-bottom: 10px;
+    }
+
      .heading-title-portfolio {
         padding-top: 120px;
         padding-bottom: 0px;
